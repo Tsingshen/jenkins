@@ -2,10 +2,14 @@
 
 * latest, 2.60.1 ([Dockerfile](https://github.com/szewec/jenkins/blob/2.60.1/Dockerfile))
 
+# Jenkins
+
+The Jenkins Continuous Integration and Delivery server.
+
 This is a fully functional Jenkins server, based on the Long Term Support release.
 [http://jenkins.io/](http://jenkins.io/).
 
-<img src="http://jenkins-ci.org/sites/default/files/jenkins_logo.png"/>
+![Jenkins CI](http://jenkins-ci.org/sites/default/files/jenkins_logo.png)
 
 # Usage
 
