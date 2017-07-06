@@ -25,6 +25,7 @@ RUN install-plugins.sh \
   email-ext \
   envinject \
   gitlab-plugin \
+  pegdown-formatter \
   publish-over-ssh
 
 USER jenkins
