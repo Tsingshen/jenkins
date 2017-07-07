@@ -18,14 +18,29 @@ RUN install-plugins.sh \
   active-directory \
   ansible \
   blueocean \
+  build-monitor-plugin \
+  build-pipeline-plugin \
+  buildtriggerbadge \
   cloudbees-folder \
   config-file-provider \
   copyartifact \
+  dashboard-view \
+  disk-usage \
   docker-slaves \
   email-ext \
   envinject \
   gitlab-plugin \
+  greenballs \
+  job-dsl \
+  jobConfigHistory \
+  monitoring \
   pegdown-formatter \
-  publish-over-ssh
+  promoted-builds \
+  publish-over-cifs \
+  publish-over-ftp \
+  publish-over-ssh \
+  tasks \
+  test-results-analyzer \
+  warnings
 
 USER jenkins
