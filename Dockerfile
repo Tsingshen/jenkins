@@ -19,12 +19,15 @@ RUN install-plugins.sh \
   ansible \
   blueocean \
   build-monitor-plugin \
+  build-name-setter \
   build-pipeline-plugin \
+  build-user-vars-plugin \
   buildtriggerbadge \
   cloudbees-folder \
   config-file-provider \
   copyartifact \
   dashboard-view \
+  description-setter \
   disk-usage \
   docker-slaves \
   email-ext \
@@ -41,6 +44,7 @@ RUN install-plugins.sh \
   publish-over-ssh \
   tasks \
   test-results-analyzer \
+  thinBackup \
   warnings
 
 USER jenkins
