@@ -43,6 +43,7 @@ RUN install-plugins.sh \
   tasks \
   test-results-analyzer \
   thinBackup \
-  warnings
+  warnings \
+  ws-cleanup
 
 USER jenkins
