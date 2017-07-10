@@ -16,9 +16,6 @@ RUN set -x \
 
 RUN install-plugins.sh \
   active-directory \
-  ansible \
-  blueocean \
-  build-monitor-plugin \
   build-name-setter \
   build-pipeline-plugin \
   build-user-vars-plugin \
@@ -38,10 +35,11 @@ RUN install-plugins.sh \
   jobConfigHistory \
   monitoring \
   pegdown-formatter \
-  promoted-builds \
   publish-over-cifs \
   publish-over-ftp \
   publish-over-ssh \
+  role-strategy \
+  security-inspector \
   tasks \
   test-results-analyzer \
   thinBackup \
